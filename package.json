@@ -5,6 +5,9 @@
   "scripts": {
     "test": "cucumber-js",
     "test:e2e": "cucumber-js --config cucumber.js",
+    "test:playwright": "playwright test",
+    "test:playwright:ui": "playwright test --ui",
+    "test:playwright:headed": "playwright test --headed",
     "report": "node ./generate-report.js"
   },
   "keywords": [],
